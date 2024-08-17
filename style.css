@@ -10,7 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #83d7ec;
+  background-image: linear-gradient(to top, #3d7afc, #73d19d);
 }
 .container {
   width: 850px;
@@ -92,6 +92,11 @@ body {
 .rotate button:nth-child(4) {
   font-size: 18px;
 }
+.rotate .options button:active{
+  color: #fff;
+  background: #5372F0;
+  border-color: #5372F0;
+}
 .wrapper .preview-img {
   flex-grow: 1;
   display: flex;
@@ -106,7 +111,7 @@ body {
   height: 100%;
   object-fit: contain;
 }
-.controls button {
+.controls button{
   font-size: 14px;
   cursor: pointer;
   color: #fff;
